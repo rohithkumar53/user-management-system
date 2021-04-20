@@ -1,0 +1,25 @@
+{
+  "name": "crud_app",
+  "version": "1.0.0",
+  "description": "crud application for user management with express and mongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "supervisor server.js"
+  },
+  "keywords": [
+    "express",
+    "mongoDB"
+  ],
+  "author": "Rohith Kumar Pampari",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "morgan": "^1.10.0",
+    "supervisor": "^0.12.0"
+  }
+}

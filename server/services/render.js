@@ -5,7 +5,7 @@ exports.homeRoutes=(req,res)=>{
             res.render("index",{users:response.data});
         })
         .catch(err=>{
-            res.status(500).send({message:"error occured"});
+            res.status(500).send({message:"error has occured"});
         })
 
 };

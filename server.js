@@ -5,7 +5,8 @@ const morgan=require("morgan");
 const path=require("path");
 const connectDB = require("./server/database/connection");
 
-dotenv.config({path:"config.env"});
+dotenv.config();
+//{path:"config.env"}
 
 const PORT = process.env.PORT || 8080;
 
